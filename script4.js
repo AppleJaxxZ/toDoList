@@ -14,7 +14,9 @@ addToButton.addEventListener('click', function(){
     });
 
     removeButton.addEventListener('click', function() {
-        toDoContainer.removeChild(paragraph)
+         while (toDoContainer.firstChild) {
+   toDoContainer.removeChild(toDoContainer.firstChild);
+ }
     });
 
 });
