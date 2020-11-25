@@ -1,40 +1,49 @@
-html, body {
-width: 50%;
-margin: 0 auto;
-font-family: Georgia, 'Times New Roman', Times, serif;
-background-color: lightblue;
+html,
+body {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: lightblue;
 }
 
-
 .container {
-    width: 360px;
-    background-color: lightblue;
+  width: 360px;
+  background-color: lightblue;
 }
 
 #inputField {
-    width: 300px;
-    height: 46px;
-    border: 1px solid black;
-    outline: none;
-    font-size: 25px;
-    vertical-align: middle;
+  width: 300px;
+  height: 46px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
 }
 
 #addToDo {
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-    vertical-align: middle;
-    font-size: 30px;
-    background-color: lightblue;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 30px;
+  background-color: lightblue;
 }
 
 .to-Dos {
-margin-top: 25px;
+  margin-top: 25px;
 }
 
 .paragraph-styling {
-    margin: 0;
-    cursor: pointer;
-    font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 0;
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.completed {
+  text-decoration: line-through;
 }
