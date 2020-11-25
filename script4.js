@@ -14,7 +14,7 @@ addToButton.addEventListener('click', function(){
     });
 
     removeButton.addEventListener('click', function() {
-        toDoContainer.removeChild(paragraph);
+        paragraph.foreach(para => toDoContainer.removeChild(para));
     });
 
 });
